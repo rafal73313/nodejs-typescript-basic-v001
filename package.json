@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node ./dist/app.js",
-    "build": "tsc",
+    "build": "npx tsc",
     "dev:watch": "tsx watch --tsconfig ./tsconfig.json ./src/app.ts"
   },
   "keywords": [],
