@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2022", // Target ES2017 to support async/await
+    "module": "NodeNext", // Use ECMAScript modules
+    // "outDir": "./dist", // Output directory for compiled files
+    "esModuleInterop": true // Enable interop between CommonJS and ES modules
+    // "sourceMap": true, // Generate source maps for debugging
+    // "strict": true, // Enable strict type checking
+    // "moduleResolution": "NodeNext" // Use Node.js-style module resolution
+    // "resolveJsonModule": true, // Enable importing JSON files
+    // "declaration": true, // Generate declaration files
+    // "rootDir": "./src", // Root directory for source files
+    // "baseUrl": "./src", // Base URL for module resolution
+    // "allowSyntheticDefaultImports": true
+  }
+  // "include": ["src/**/*"], // Include all files in the src directory
+  // "exclude": ["node_modules", "**/*.spec.ts"] // Exclude node_modules and test files
+}
