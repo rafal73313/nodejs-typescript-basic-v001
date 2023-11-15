@@ -12,14 +12,12 @@ app.use(urlencoded({ extended: true }));
 app.use(express.json());
 app.use(morgan('dev'));
 
-const port = 4001;
-
 let dbClient: any;
 
 connectToDb((client, err) => {
   if (!err) {
-    app.listen(port, () => {
-      logger.info(`Listening on port: ${port}`);
+    app.listen(process.env.PORT, () => {
+      logger.info(`Listening on port: ${process.env.PORT}`);
     });
     dbClient = client;
   }
