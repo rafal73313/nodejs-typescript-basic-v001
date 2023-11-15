@@ -4,6 +4,7 @@
   "description": "",
   "type": "module",
   "scripts": {
+    "start": "node ./dist/app.js",
     "build": "tsc",
     "dev:watch": "tsx watch --tsconfig ./tsconfig.json ./src/app.ts"
   },
