@@ -2,7 +2,7 @@ import express, { urlencoded } from 'express';
 import morgan from 'morgan';
 import { routerRoot } from './routes/index.js';
 import { logger } from './utils/logger.js';
-import { connectToDb } from 'db.js';
+import { connectToDb } from './db.js';
 import { configDotenv } from 'dotenv';
 configDotenv();
 

@@ -1,6 +1,6 @@
 import { configDotenv } from 'dotenv';
 import { MongoClient, ServerApiVersion } from 'mongodb';
-import { logger } from 'utils/logger.js';
+import { logger } from './utils/logger.js';
 configDotenv();
 
 const client = new MongoClient(process.env.DB_URL!, {
