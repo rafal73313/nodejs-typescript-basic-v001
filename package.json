@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node --esm src/app.ts --project ./tsconfig.json",
+    "dev": "tsx src/app.ts --project ./tsconfig.json",
     "dev:watch": "nodemon -e ts -w './src/**/*.ts' -x 'npm run dev'"
   },
   "keywords": [],
@@ -20,7 +20,7 @@
     "morgan": "^1.10.0",
     "nodemon": "^3.0.1",
     "pino-pretty": "^10.2.3",
-    "ts-node": "^10.9.1",
+    "tsx": "^4.1.2",
     "typescript": "^5.2.2"
   },
   "dependencies": {

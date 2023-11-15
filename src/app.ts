@@ -6,7 +6,7 @@ import { logger } from "./utils/logger.js";
 const app = express();
 app.use(morgan("dev"));
 
-const port = 4001;
+const port = 4002;
 
 app.use("/api", routerRoot);
 
