@@ -1,7 +1,8 @@
 {
-  "name": "ses003_simple-endpoint",
+  "name": "nodejs-typescript-basic-v001",
   "version": "1.0.0",
   "description": "",
+  "main": "app.js",
   "type": "module",
   "scripts": {
     "start": "node ./dist/app.js",
